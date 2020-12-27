@@ -6,10 +6,11 @@ default matplotlib weak wind circle into bald barb
 
 ## Usage
 
-1. You can use method `barbs` in module ``customized_barbs.py`
+1. You can use method `barbs` in module `customized_barbs.py`
 to replace `plt.barbs` , the first parameter must be `Axes` instance.
 2. use a specific parameter value `fill_empty='barb'` in `barbs` call
 
+## Example
 
 Here is an example,
 
@@ -39,3 +40,5 @@ Here is an example,
     plt.show()
 ```
 
+
+![image](https://github.com/wqshen/CustomizedBarbs/blob/master/example.png)
